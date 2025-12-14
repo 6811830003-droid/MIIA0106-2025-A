@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(4)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3643E5-655E-48A3-835A-C288873D3FFF}|..\\LAB4(7)\\LAB4(7).vcxproj|C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(7)\\LAB4(7).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C4A6EB-D755-4881-B907-F4587C331DB3}|..\\LAB4(6)\\LAB4(6).vcxproj|C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(6)\\LAB4(6).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA213368-7E17-4D6A-8457-D63F8AE3748E}|..\\LAB4(5)\\LAB4(5).vcxproj|C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(5)\\LAB4(5).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F535FAB-B48A-4088-ABD9-4F5A4C34A7B8}|LAB4(4).vcxproj|C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(4)\\LAB4(4).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F535FAB-B48A-4088-ABD9-4F5A4C34A7B8}|LAB4(4).vcxproj|solutionrelative:LAB4(4).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LAB4(7).cpp",
+              "DocumentMoniker": "C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(7)\\LAB4(7).cpp",
+              "RelativeDocumentMoniker": "..\\LAB4(7)\\LAB4(7).cpp",
+              "ToolTip": "C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(7)\\LAB4(7).cpp",
+              "RelativeToolTip": "..\\LAB4(7)\\LAB4(7).cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T19:54:38.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LAB4(6).cpp",
+              "DocumentMoniker": "C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(6)\\LAB4(6).cpp",
+              "RelativeDocumentMoniker": "..\\LAB4(6)\\LAB4(6).cpp",
+              "ToolTip": "C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(6)\\LAB4(6).cpp",
+              "RelativeToolTip": "..\\LAB4(6)\\LAB4(6).cpp",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAWwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T19:44:29.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LAB4(5).cpp",
+              "DocumentMoniker": "C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(5)\\LAB4(5).cpp",
+              "RelativeDocumentMoniker": "..\\LAB4(5)\\LAB4(5).cpp",
+              "ToolTip": "C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(5)\\LAB4(5).cpp",
+              "RelativeToolTip": "..\\LAB4(5)\\LAB4(5).cpp",
+              "ViewState": "AgIAACYAAAAAAAAAAAAWwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T19:33:26.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LAB4(4).cpp",
+              "DocumentMoniker": "C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(4)\\LAB4(4).cpp",
+              "RelativeDocumentMoniker": "LAB4(4).cpp",
+              "ToolTip": "C:\\Users\\Wuttikan\\OneDrive\\Desktop\\\u0E07\u0E32\u0E19MUT\\J\\MIIA0106-2025-A\\LAB4\\LAB4(4)\\LAB4(4).cpp",
+              "RelativeToolTip": "LAB4(4).cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T19:28:23.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
