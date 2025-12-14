@@ -6,17 +6,19 @@
 
 int main()
 {
-    const int studentLastTwo = 3; // from ID "03"
+    const int idLastTwo = 3; // "03" -> numeric value 3
     const int start = 1;
     const int end = 12;
 
-    std::cout << "Multiplication table for ID suffix \"03\" (value " << studentLastTwo << ")\n\n";
+    std::cout << "Multiplication table for student ID last two digits: 03\n\n";
 
     for (int i = start; i <= end; ++i)
     {
-        std::cout << std::setw(2) << studentLastTwo << " x "
-                  << std::setw(2) << i << " = "
-                  << std::setw(3) << (studentLastTwo * i) << '\n';
+        // print each value with two digits (leading zero for 03 and single-digit multipliers/results)
+        std::cout << std::setfill('0') << std::setw(2) << idLastTwo
+                  << " x " << std::setw(2) << i
+                  << " = " << std::setw(2) << (idLastTwo * i)
+                  << std::setfill(' ') << '\n';
     }
 
     return 0;

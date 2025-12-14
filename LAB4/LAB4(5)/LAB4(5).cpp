@@ -1,61 +1,63 @@
-﻿// LAB4(5).cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <random>
 #include <limits>
 
 int main()
 {
-    // Prepare random number generator (1-100)
-    std::random_device rd;
-    std::mt19937 gen(rd());
+    std::mt19937 rng(std::random_device{}());
     std::uniform_int_distribution<int> dist(1, 100);
-    const int secret = dist(gen);
 
-    int guess = 0;
-    int attempts = 0;
+    std::cout << "เกมทายเลข (สุ่มเลข 1-100)\n";
 
-    std::cout << "Number Guessing Game (1-100)\n";
-    std::cout << "Enter 0 to quit at any time.\n\n";
-
-    while (true)
+    char playAgain = 'y';
+    while (playAgain == 'y' || playAgain == 'Y')
     {
-        std::cout << "Your guess: ";
-        if (!(std::cin >> guess))
+        int target = dist(rng);
+        int guess = 0;
+        int attempts = 0;
+
+        std::cout << "\nระบบได้สุ่มเลขแล้ว ลองทายดูครับ/ค่ะ\n";
+
+        while (true)
         {
-            // Handle non-integer input
-            std::cin.clear();
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            std::cout << "Invalid input — please enter an integer.\n";
-            continue;
+            std::cout << "ป้อนหมายเลข (1-100): ";
+            if (!(std::cin >> guess))
+            {
+                std::cin.clear();
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                std::cout << "ค่าที่ป้อนไม่ถูกต้อง — กรุณาป้อนตัวเลขเท่านั้น\n";
+                continue;
+            }
+
+            if (guess < 1 || guess > 100)
+            {
+                std::cout << "โปรดป้อนตัวเลขระหว่าง 1 ถึง 100\n";
+                continue;
+            }
+
+            ++attempts;
+
+            if (guess == target)
+            {
+                std::cout << "ยินดีด้วย! ถูกต้องแล้ว — คุณทายทั้งหมด " << attempts << " ครั้ง\n";
+                break;
+            }
+            else if (guess < target)
+            {
+                std::cout << "น้อยเกินไป\n";
+            }
+            else
+            {
+                std::cout << "มากเกินไป\n";
+            }
         }
 
-        if (guess == 0)
-        {
-            std::cout << "You quit. The secret number was " << secret << ".\n";
-            break;
-        }
-
-        ++attempts;
-
-        if (guess < secret)
-        {
-            std::cout << "Too low.\n";
-        }
-        else if (guess > secret)
-        {
-            std::cout << "Too high.\n";
-        }
-        else
-        {
-            std::cout << "Correct! You found the number in " << attempts << " attempt";
-            if (attempts != 1) std::cout << "s";
-            std::cout << ".\n";
-            break;
-        }
+        std::cout << "เล่นอีกครั้งหรือไม่? (y/n): ";
+        std::cin >> playAgain;
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
 
+    std::cout << "ขอบคุณที่เล่น\n";
     return 0;
 }
 
