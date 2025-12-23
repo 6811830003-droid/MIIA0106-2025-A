@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MUT-00\\source\\repos\\LAB6(01)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69B8424D-6C1E-40A7-89B0-0EE74ED25726}|..\\LAB6(04)\\LAB6(04).vcxproj|C:\\Users\\MUT-00\\source\\repos\\LAB6(04)\\LAB6(04).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7A4A68-3C1E-4BCD-8F2B-B1FB6DA700E6}|..\\LAB6(03)\\LAB6(03).vcxproj|C:\\Users\\MUT-00\\source\\repos\\LAB6(03)\\LAB6(03).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{548F7C7E-09E7-4445-8B46-3E36BCBB9C72}|..\\LAB6(02)\\LAB6(02).vcxproj|C:\\Users\\MUT-00\\source\\repos\\LAB6(02)\\LAB6(02).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6B1BA8-6CC1-4B6F-ABDB-61BA0A103197}|LAB6(01).vcxproj|C:\\Users\\MUT-00\\source\\repos\\LAB6(01)\\LAB6(01).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A6B1BA8-6CC1-4B6F-ABDB-61BA0A103197}|LAB6(01).vcxproj|solutionrelative:LAB6(01).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LAB6(04).cpp",
+              "DocumentMoniker": "C:\\Users\\MUT-00\\source\\repos\\LAB6(04)\\LAB6(04).cpp",
+              "RelativeDocumentMoniker": "..\\LAB6(04)\\LAB6(04).cpp",
+              "ToolTip": "C:\\Users\\MUT-00\\source\\repos\\LAB6(04)\\LAB6(04).cpp",
+              "RelativeToolTip": "..\\LAB6(04)\\LAB6(04).cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowD4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-23T09:42:07.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LAB6(03).cpp",
+              "DocumentMoniker": "C:\\Users\\MUT-00\\source\\repos\\LAB6(03)\\LAB6(03).cpp",
+              "RelativeDocumentMoniker": "..\\LAB6(03)\\LAB6(03).cpp",
+              "ToolTip": "C:\\Users\\MUT-00\\source\\repos\\LAB6(03)\\LAB6(03).cpp",
+              "RelativeToolTip": "..\\LAB6(03)\\LAB6(03).cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowDsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-23T08:58:36.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LAB6(02).cpp",
+              "DocumentMoniker": "C:\\Users\\MUT-00\\source\\repos\\LAB6(02)\\LAB6(02).cpp",
+              "RelativeDocumentMoniker": "..\\LAB6(02)\\LAB6(02).cpp",
+              "ToolTip": "C:\\Users\\MUT-00\\source\\repos\\LAB6(02)\\LAB6(02).cpp",
+              "RelativeToolTip": "..\\LAB6(02)\\LAB6(02).cpp",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowDYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-23T08:45:00.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LAB6(01).cpp",
+              "DocumentMoniker": "C:\\Users\\MUT-00\\source\\repos\\LAB6(01)\\LAB6(01).cpp",
+              "RelativeDocumentMoniker": "LAB6(01).cpp",
+              "ToolTip": "C:\\Users\\MUT-00\\source\\repos\\LAB6(01)\\LAB6(01).cpp",
+              "RelativeToolTip": "LAB6(01).cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-23T08:19:44.14Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
